@@ -7,6 +7,12 @@
       <groupId>com.theawesomenexus</groupId>
       <artifactId>theawesomenexus-archetype-gui</artifactId>
       <version>1.0</version>
+      <description>This version doesn't name packages correctly, use version 1.1</description>
+    </archetype>
+    <archetype>
+      <groupId>com.theawesomenexus</groupId>
+      <artifactId>theawesomenexus-archetype-gui</artifactId>
+      <version>1.1</version>
       <description>An archetype used for creating a basic executable jar file which displays a JFrame.</description>
     </archetype>
   </archetypes>
