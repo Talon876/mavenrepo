@@ -20,3 +20,14 @@ Generate the catalog file for the local repo:
 	mvn archetype:crawl -DcatalogFile=D:\Dropbox\Git\mavenrepo\releases -Drepository=D:\Dropbox\Git\mavenrepo\releases
 
 Don't forgot to push the changes to github.
+
+
+Extra Helpful commands:
+Generate a project using local repo:
+mvn archetype:generate -DgroupId=com.theawesomenexus -DartifactId=theawesomenexus-archetype-gui -DarchetypeArtifactId=maven-archetype-example -DarchetypeGroupId=com.myarchetype -DarchetypeVersion=1.1
+
+Add:
+-DarchetypeCatalog=https://raw.github.com/Talon876/mavenrepo/master/releases/
+to specify a repo
+
+
