@@ -25,7 +25,7 @@ Add the following to your .pom file:
 		[...]
 		<repository>
 			<id>Talon876's libraries</id>
-			<url>https://raw.github.com/Talon876/mavenrepo/master/releases/</url>
+			<url>https://raw.github.com/Talon876/mavenrepo/master/releases</url>
 		</repository>
 	</repositories>
 	
