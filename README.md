@@ -3,7 +3,7 @@ My Public Maven Repository
 This is my public maven repository hosted on Github. Currently, I am only using it for project archetypes but I will also use it to host my own libraries.
 
 
-Archtypes
+Archetypes
 ---------
 
 In eclipse: `Window > Preferences > Maven > Archtypes > Add Remote Catalog...`
