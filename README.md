@@ -6,7 +6,7 @@ This is my public maven repository hosted on Github. Currently, I am only using 
 Archtypes
 ---------
 
-In eclipse: `Window - Preferences - Maven - Archtypes - Add Remote Catalog...`
+In eclipse: `Window > Preferences > Maven > Archtypes > Add Remote Catalog...`
 
 Catalog File:
 
@@ -18,9 +18,9 @@ Description:
 	
 The following archetypes are available:
 
-* `theawesomenexus-archetype-gui` -- An archetype used for creating a basic executable jar file which displays a JFrame.
+* `theawesomenexus-archetype-gui` -- An archetype used for creating an executable jar file which displays a JFrame.
 * `theawesomenexus-archetype-slick` -- An archetype used for creating the skeleton of a project using Slick2D.
-* `theawesomenexus-archetype-servlet` -- An archetype used for creating a basic servlet ready to go with annotations and Tomcat 7.
+* `theawesomenexus-archetype-servlet` -- An archetype used for creating a servlet ready to go with annotations and Tomcat 7.
 
 	
 Libraries
