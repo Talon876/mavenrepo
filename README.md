@@ -36,3 +36,8 @@ Add the following to your .pom file:
 		</repository>
 	</repositories>
 	
+Expect the following libraries to be added in the near future:
+
+* `theawesomenexus.util.jar` -- A library containing random use fulctions such as generating a random number in a specified range, getting a random angle, doing the conversion between angles and Vector2's, LERPing, etc.
+* `theawesomenexus.skype4java` -- My fixed version of another person's library who hasn't updated in awhile.
+
