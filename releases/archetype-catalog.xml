@@ -4,16 +4,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <archetypes>
     <archetype>
-      <groupId>com.myarchetype</groupId>
-      <artifactId>maven-archetype-example</artifactId>
+      <groupId>com.theawesomenexus</groupId>
+      <artifactId>theawesomenexus-archetype-gui</artifactId>
       <version>1.0</version>
-      <description>maven-archetype-example</description>
-    </archetype>
-    <archetype>
-      <groupId>com.myarchetype</groupId>
-      <artifactId>maven-archetype-example</artifactId>
-      <version>1.1</version>
-      <description>maven-archetype-example</description>
+      <description>theawesomenexus-archetype-gui</description>
     </archetype>
   </archetypes>
 </archetype-catalog>
