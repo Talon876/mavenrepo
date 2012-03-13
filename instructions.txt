@@ -1,0 +1,2 @@
+mvn -DaltDeploymentRepository=repo::default::file:D\Dropbox\Git\mavenrepo\releases clean deploy
+mvn archetype:crawl -DcatalogFile=D:\Dropbox\Git\mavenrepo\releases -Drepository=D:\Dropbox\Git\mavenrepo\releases
