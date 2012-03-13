@@ -7,7 +7,7 @@
       <groupId>com.theawesomenexus</groupId>
       <artifactId>theawesomenexus-archetype-gui</artifactId>
       <version>1.0</version>
-      <description>theawesomenexus-archetype-gui</description>
+      <description>An archetype used for creating a basic executable jar file which displays a JFrame</description>
     </archetype>
   </archetypes>
 </archetype-catalog>

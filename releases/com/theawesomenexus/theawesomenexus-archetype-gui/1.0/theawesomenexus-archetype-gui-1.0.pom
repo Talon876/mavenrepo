@@ -8,7 +8,7 @@
   <packaging>maven-archetype</packaging>
 
   <name>theawesomenexus-archetype-gui</name>
-  <description>An archetype used for creating a basic executable jar file which displays a JFrame</description>
+  
 
   <build>
     <extensions>
