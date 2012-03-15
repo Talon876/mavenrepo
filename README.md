@@ -8,18 +8,12 @@ Archetypes
 
 In eclipse: `Window > Preferences > Maven > Archtypes > Add Remote Catalog...`
 
-Catalog File:
-
-	https://raw.github.com/Talon876/mavenrepo/master/releases/archetype-catalog.xml
-
-Description:
-
-	Talon876's public maven repo.
-
+	Catalog File: `https://raw.github.com/Talon876/mavenrepo/master/releases/archetype-catalog.xml`
+	Description: `The Awesome Nexus`
 
 Using my repository from the command line:
 	
-	`mvn archetype:generate -DarchetypeCatalog=https://raw.github.com/Talon876/mavenrepo/master/releases/`
+	mvn archetype:generate -DarchetypeCatalog=https://raw.github.com/Talon876/mavenrepo/master/releases/
 	
 The following archetypes are available:
 
