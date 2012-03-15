@@ -15,6 +15,11 @@ Catalog File:
 Description:
 
 	Talon876's public maven repo.
+
+
+Using my repository from the command line:
+	
+	`mvn archetype:generate -DarchetypeCatalog=https://raw.github.com/Talon876/mavenrepo/master/releases/`
 	
 The following archetypes are available:
 
@@ -31,7 +36,8 @@ Add the following to your .pom file:
 	<repositories>
 		[...]
 		<repository>
-			<id>Talon876's libraries</id>
+			<id>com.theawesomenexus</id>
+			<name>The Awesome Nexus</name>
 			<url>https://raw.github.com/Talon876/mavenrepo/master/releases</url>
 		</repository>
 	</repositories>
