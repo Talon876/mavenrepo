@@ -15,5 +15,11 @@
       <version>1.1</version>
       <description>An archetype used for creating a basic executable jar file which displays a JFrame.</description>
     </archetype>
+    <archetype>
+      <groupId>com.theawesomenexus</groupId>
+      <artifactId>theawesomenexus-archetype-slick</artifactId>
+      <version>1.0</version>
+      <description>An archetype used for creating a basic Slick2D project which packages in to a zip containing all needed libraries along with an executable jar file.</description>
+    </archetype>
   </archetypes>
 </archetype-catalog>
