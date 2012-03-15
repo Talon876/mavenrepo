@@ -8,8 +8,8 @@ Archetypes
 
 In eclipse: `Window > Preferences > Maven > Archtypes > Add Remote Catalog...`
 
-	Catalog File: `https://raw.github.com/Talon876/mavenrepo/master/releases/archetype-catalog.xml`
-	Description: `The Awesome Nexus`
+* Catalog File: https://raw.github.com/Talon876/mavenrepo/master/releases/archetype-catalog.xml
+* Description: The Awesome Nexus
 
 Using my repository from the command line:
 	
@@ -40,4 +40,3 @@ Expect the following libraries to be added in the near future:
 
 * `theawesomenexus.util.jar` -- A library containing random use fulctions such as generating a random number in a specified range, getting a random angle, doing the conversion between angles and Vector2's, LERPing, etc.
 * `theawesomenexus.skype4java.jar` -- My fixed version of another person's library who hasn't updated in awhile.
-
