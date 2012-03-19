@@ -46,6 +46,10 @@ Example Commands
 
 This will download the source to, compile, extract, and run the `theawesomenexus-archetype-slick` archetype:
 	
+<<<<<<< .merge_file_a07376
 	mvn archetype:generate -DarchetypeCatalog=https://raw.github.com/Talon876/mavenrepo/master/releases/ -DarchetypeArtifactId=theawesomenexus-archetype-slick -DarchetypeGroupId=com.theawesomenexus -DgroupId=com.test -DartifactId=TestProject -Dversion=1.0 -Dgoals=package -DinteractiveMode=false && cd TestProject\target && 7z x TestProject-1.0-release.zip && cd TestProject-1.0 && call run
 
 Note: This command only works if 7zip and maven are in your %PATH% environment variable.
+=======
+	mvn archetype:generate -DarchetypeCatalog=https://raw.github.com/Talon876/mavenrepo/master/releases/ -DarchetypeArtifactId=theawesomenexus-archetype-slick -DarchetypeGroupId=com.theawesomenexus -DgroupId=com.test -DartifactId=TestProject -Dversion=1.0 -Dgoals=package -DinteractiveMode=false && cd TestProject\target && 7z x TestProject-1.0-release.zip && cd TestProject-1.0 && call run
+>>>>>>> .merge_file_a07436
