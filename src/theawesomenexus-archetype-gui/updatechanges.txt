@@ -1,8 +1,8 @@
 mvn clean install
 
-mvn -DaltDeploymentRepository=repo::default::file:D:\Dropbox\Git\mavenrepo\releases clean deploy
+mvn -DaltDeploymentRepository=repo::default::file:C:\Users\Talon\Dropbox\Git\mavenrepo\releases clean deploy
 
-mvn archetype:crawl -DcatalogFile=D:\Dropbox\Git\mavenrepo\releases -Drepository=D:\Dropbox\Git\mavenrepo\releases
+mvn archetype:crawl -DcatalogFile=C:\Users\Talon\Dropbox\Git\mavenrepo\releases -Drepository=C:\Users\Talon\Dropbox\Git\mavenrepo\releases
 
 Done updating local repo at ~/.m2/repository along with the repo at D:\Dropbox\Git\mavenrepo\releases
 Make sure to push the changes to github.

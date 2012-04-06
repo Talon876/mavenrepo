@@ -1,6 +1,6 @@
 My Public Maven Repository
 ==========================
-This is my public maven repository hosted on Github. Currently, I am only using it for project archetypes but I will also use it to host my own libraries.
+This is my public maven repository hosted on Github. Currently, I am only using it for project archetypes but I will also use it to host my own libraries. I will also use it to host libraries which have not been hosted anywhere else.
 
 
 Archetypes
@@ -9,7 +9,7 @@ Archetypes
 In eclipse: `Window > Preferences > Maven > Archtypes > Add Remote Catalog...`
 
 * Catalog File: https://raw.github.com/Talon876/mavenrepo/master/releases/archetype-catalog.xml
-* Description: The Awesome Nexus
+* Description: Deflexicon Repo
 
 Using my repository from the command line:
 	
@@ -36,10 +36,13 @@ Add the following to your .pom file:
 		</repository>
 	</repositories>
 	
+Current Libraries:
+
+* `com.skype.skype_win32` -- A fixed version of http://skype.sourceforge.jp/index.php?Skype%20API%20For%20Java%20(English)
+	
 Expect the following libraries to be added in the near future:
 
 * `theawesomenexus.util.jar` -- A library containing random use fulctions such as generating a random number in a specified range, getting a random angle, doing the conversion between angles and Vector2's, LERPing, etc.
-* `theawesomenexus.skype4java.jar` -- My fixed version of another person's library who hasn't updated in awhile.
 
 Example Commands
 ----------------
@@ -48,5 +51,8 @@ This will download the source to, compile, extract, and run the `theawesomenexus
 	
 	mvn archetype:generate -DarchetypeCatalog=https://raw.github.com/Talon876/mavenrepo/master/releases/ -DarchetypeArtifactId=theawesomenexus-archetype-slick -DarchetypeGroupId=com.theawesomenexus -DgroupId=com.test -DartifactId=TestProject -Dversion=1.0 -Dgoals=package -DinteractiveMode=false && cd TestProject\target && 7z x TestProject-1.0-release.zip && cd TestProject-1.0 && call run
 
-Note: This command only works if 7zip and maven are in your %PATH% environment variable.
+Note: This Windows command only works if 7zip and maven are in your %PATH% environment variable.
 
+Deploy a third party jar:
+	
+	mvn deploy:deploy-file -Durl=file:PATH_TO_LOCAL\mavenrepo\releases -Dfile=theirfile.jar -DgroupId=com.whatever -DartifactId=thing -Dversion=1.0 -Dpackaging=jar
